@@ -1,0 +1,3 @@
+char *control();
+
+char *Switch ();
