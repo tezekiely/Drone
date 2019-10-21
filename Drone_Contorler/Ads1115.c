@@ -8,7 +8,7 @@
 #include <linux/i2c-dev.h> // I2C bus definitions
 #include <sys/ioctl.h> // ioctl
 
-int fd;
+int fd; 
 // ADS1115 defaults to 0x48
 int ads_address = 0x48;
 int16_t val;
